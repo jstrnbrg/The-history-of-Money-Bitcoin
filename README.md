@@ -22,7 +22,7 @@ _______________________________________________
 
 ## Contributor workflow
 
-The content is maintained using the "contributor workflow" where everyone without exception contributes patch proposals using "pull requests".
+The content is maintained using the "contributor workflow" where everyone contributes patch proposals using "pull requests".
 This facilitates social contribution, easy testing and peer review.
 
 To contribute a patch, the workflow is as follows:
