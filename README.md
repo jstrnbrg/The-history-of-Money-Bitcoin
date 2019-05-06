@@ -18,6 +18,7 @@ Similarly to that app, I would structure everything into a few different mega-ch
 For a preliminary draft of the epoches and chapters please see below at.
 Each chapter should have a few "deep dive" resource links at the bottom.
 
+_______________________________________________
 
 ## Contributor workflow
 
@@ -49,6 +50,7 @@ If a pull request is not to be considered for merging (yet), please prefix the t
 At this stage one should expect comments and review from other contributors.
 You can add more commits to your pull request by committing them locally and pushing to your fork until you have satisfied all feedback.
 
+_______________________________________________
 
 ## Preliminary draft of epoches and chapters
 
@@ -127,8 +129,7 @@ _______________________________________________
 #### HTLC
 #### Lightning Network
 
-
-
+_______________________________________________
 
 ## Possible Sources
 
@@ -170,6 +171,8 @@ https://medium.com/@nicolasdorier/the-ethics-of-money-and-bitcoin-f6c4f568d9f9
 https://thebitcoinrabbi.com/bitcoin-money-book/
 
 #### http://unenumerated.blogspot.com/
+
+_______________________________________________
 
 ## Infographics:
 - Bitcoin History: The Complete History of Bitcoin Timeline: http://historyofbitcoin.org/
