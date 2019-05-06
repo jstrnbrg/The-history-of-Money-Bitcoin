@@ -61,24 +61,29 @@ You can add more commits to your pull request by committing them locally and pus
 - UoA
 #### How does money naturally emerge?
 - Sale-ability
+_______________________________________________
 
 ### 2. Early forms of money
 #### Proto money
 #### Shells
 #### Stones, beads etc
+_______________________________________________
 
 ### 3. Commodity money
 #### Gold
 #### Silver etc
+_______________________________________________
 
 ### 4. Commodity backed money
 #### Gold standard
 #### Silver standard
+_______________________________________________
 
 ### 5. Fiat Money
 #### Keynsian & Moneterian
 #### Austrian
 #### Sound vs Unsound money
+_______________________________________________
 
 ### 6. History of Bitcoin
 #### Failed early efforts:
@@ -89,13 +94,16 @@ You can add more commits to your pull request by committing them locally and pus
 #### early usage of bitcoin
 #### famous exchange hacks
 #### waves of adoption and price bubbles
-#### scaling bitcoin debate, UASF ( which proves that miners have not much to say in Bitcoin)
+#### scaling bitcoin debate, UASF
+- (which proves that miners have not much to say in Bitcoin)
+_______________________________________________
 
 ### 7. Why bitcoin
-#### forks, altcoins(if not shitcoins ;-), illusion of next bitcoin and why they are doomed to near zero monetary value compared to Bitcoin
+#### forks, altcoins
+- (if not shitcoins ;-), illusion of next bitcoin and why they are doomed to near zero monetary value compared to Bitcoin
 #### game theory , schelling point
 #### network effect etc...
-
+_______________________________________________
 
 
 ### 8. How Bitcoin works
@@ -108,6 +116,7 @@ You can add more commits to your pull request by committing them locally and pus
 #### Why Bitcoin is immutable
 #### How to kill bitcoin
 - ( We can omit this section. saifedean has some material here )
+_______________________________________________
 
 
 ### 9. Lightning
