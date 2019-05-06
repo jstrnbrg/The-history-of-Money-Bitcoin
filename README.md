@@ -2,7 +2,7 @@
 
 
 ## Table of Contents
-1. Project description
+1. [Project description](#project-description)
 2. Contributor workflow (please read)
 3. Epoches and chapters
 4. Sources
@@ -116,10 +116,9 @@ _______________________________________________
 _______________________________________________
 
 ### 7. Why bitcoin
-#### forks, altcoins
+#### Forks & Altcoins
 - (if not shitcoins ;-), illusion of next bitcoin and why they are doomed to near zero monetary value compared to Bitcoin
-#### game theory , schelling point
-#### network effect etc...
+#### Game theory , Schelling point, Lindy effect, network effect etc...
 _______________________________________________
 
 
