@@ -52,7 +52,7 @@ You can add more commits to your pull request by committing them locally and pus
 
 ## Preliminary draft of epoches and chapters
 
-### What is money?
+### 1. What is money?
 #### A shared myth:
 - Money has value because we believe it has value and because everyone does, it has.
 #### Functions of money:
@@ -62,25 +62,25 @@ You can add more commits to your pull request by committing them locally and pus
 #### How does money naturally emerge?
 - Sale-ability
 
-### Early forms of money
+### 2. Early forms of money
 #### Proto money
 #### Shells
 #### Stones, beads etc
 
-### Commodity money
+### 3. Commodity money
 #### Gold
 #### Silver etc
 
-### Commodity backed money
+### 4. Commodity backed money
 #### Gold standard
 #### Silver standard
 
-### Fiat Money
+### 5. Fiat Money
 #### Keynsian & Moneterian
 #### Austrian
 #### Sound vs Unsound money
 
-### History of Bitcoin
+### 6. History of Bitcoin
 #### Failed early efforts:
 - Hal finney, Nic szabo, adam back, w. dai etc.)
 #### cypherpunks
@@ -91,14 +91,14 @@ You can add more commits to your pull request by committing them locally and pus
 #### waves of adoption and price bubbles
 #### scaling bitcoin debate, UASF ( which proves that miners have not much to say in Bitcoin)
 
-### Why bitcoin
+### 7. Why bitcoin
 #### forks, altcoins(if not shitcoins ;-), illusion of next bitcoin and why they are doomed to near zero monetary value compared to Bitcoin
 #### game theory , schelling point
 #### network effect etc...
 
 
 
-### How Bitcoin works
+### 8. How Bitcoin works
 #### Keys & Addresses
 #### Wallets
 #### Transactions
@@ -110,7 +110,7 @@ You can add more commits to your pull request by committing them locally and pus
 - ( We can omit this section. saifedean has some material here )
 
 
-### Lightning
+### 9. Lightning
 - Lightning channel and Lightning network in simple words without going into technical ( comparing lighting channel to some real life analogy. One way to explain is like two people puts some money on a table and can exchange as many time as they want without declaring to whole world. And extend it to more than two people participating in exchange )
 #### Multisig
 #### Timelocks
