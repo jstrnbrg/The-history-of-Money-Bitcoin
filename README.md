@@ -83,21 +83,36 @@ _______________________________________________
 
 ### 5. Fiat Money
 #### Keynsian & Moneterian
+- What is their main claim?
 #### Austrian
+- What is their main claim?
 #### Sound vs Unsound money
 _______________________________________________
 
 ### 6. History of Bitcoin
 #### Failed early efforts:
-- Hal finney, Nic szabo, adam back, w. dai etc.)
-#### cypherpunks
+- DigiCash, e-gold
+- Why did they fail? Centralisation
+- Hal finney, Nic szabo, adam back, w. dai etc.
+#### Cypherpunks
 - (https://www.coindesk.com/the-rise-of-the-cypherpunks)
-#### birth of bitcoin and bitcoin white paper
-#### early usage of bitcoin
+- Who were they? What do they stand for?
+- Manifesto: https://github.com/NakamotoInstitute/nakamotoinstitute.org/blob/master/sni/static/docs/cypherpunk-manifesto.txt
+#### Birth of bitcoin and bitcoin white paper
+- Who was Nakamoto?
+- What happened to his coins?
+- What happened to him?
+- How did he release his invention?
+- Did he premine?
+#### Early usage of bitcoin
+- Is Bitcoin anonymous?
 #### famous exchange hacks
-#### waves of adoption and price bubbles
-#### scaling bitcoin debate, UASF
-- (which proves that miners have not much to say in Bitcoin)
+- Third parties are a secuity hole.
+- How does bitcoin enable you to not trust any third party?
+#### Waves of adoption and price bubbles
+#### Scaling bitcoin debate, UASF
+- Vertical scaling (bigger blocks) vs layered scaling
+- UASF: which proves that miners have not much to say in Bitcoin --> might be a bit too deep for this audience??
 _______________________________________________
 
 ### 7. Why bitcoin
@@ -110,13 +125,42 @@ _______________________________________________
 
 ### 8. How Bitcoin works
 #### Keys & Addresses
+- What is a private key? A long random number
+- What is a public key?
+- Why is from private to public easy, but vice versa hard?
+- What is an address?
+- Why do we need addresses? Other cryptos don't have them.
 #### Wallets
+- What is a wallet?
+- Why is "wallet" a misnamer?
+- What does a wallet do?
+- What types of wallets are there?
 #### Transactions
+- How is a tx constructed?
+- What are inputs and outputs?
+- What are fees? Can I pay no fee?
 #### Bitcoin Network
+- What is a node?
+- What types of nodes are there?
+- What are nodes doing?
+- What if nodes run different, incompatible software?
+- Difference between hard- and softfork?
+> Softfork reduces the set of valid operations (e.g. 0.5 MB blocks would still be valid to nodes that did not follow the soft fork)  whereas hardforks introduce rules that would have been invalid before (e.g. 2 MB blocks are invalid right now so only nodes that update will see them as valid)
 #### Blockchain
+- Why do I need to know the complete blockchain?
+- Isn't a blockchain slow and inefficient database?
+- What makes the bitcoin blockchain so special?
 #### Mining & Consensus
+- How are miners getting paid? and why?
+- What are miners doing?
+- What are coinbase transactions?
+- Which functions does mining fullfill?
+- How many Bitcoins are there and how many will there be?
+- How are nodes agreeing on which chain(tip) is the right one?
 #### Why Bitcoin is immutable
+-
 #### How to kill bitcoin
+- What are possible threats for bitcoin?
 - ( We can omit this section. saifedean has some material here )
 _______________________________________________
 
@@ -169,6 +213,10 @@ https://medium.com/@nicolasdorier/the-ethics-of-money-and-bitcoin-f6c4f568d9f9
 
 #### Bitcoin money book
 https://thebitcoinrabbi.com/bitcoin-money-book/
+
+#### Purely digital currencies before bitcoin
+https://hackernoon.com/the-amazing-story-of-cryptocurrencies-before-bitcoin-fe1b0e55155b
+
 
 #### http://unenumerated.blogspot.com/
 
