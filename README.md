@@ -126,16 +126,17 @@ _______________________________________________
 #### Keys & Addresses
 - What is a private key? A long random number
 - What is a public key?
-> Bitcoin makes use of cryptography to create a key pair that controls access to your bitcoin. The key pair consists of a private key, which a long random number, and mathematically derived from it a public key. The public key is used to receive funds, and the private key is used to sign transactions to spend the funds.
+> Bitcoin makes use of cryptography to create a key pair that controls access to your bitcoin. The key pair consists of a private key, which a long random number, and mathematically derived from it a public key. The public key is used to receive coins, and the private key is used to sign transactions to spend the coins.
 - Why is from private to public easy, but vice versa hard?
 > The mathematical relationship between the public and the private key has the following properties: A) It is infeasible to calculate the private key from the public key,  B)  The private key can be used to generate digital signatures on messages. These signature can then be validated with the help of the public key without revealing the private key.
 - What is an address?
-When sending Bitcoin the recipient is (in most cases) a Bitcoin address. A Bitcoin address is derived from a public key and allows. Using an address as the recipient compared to sending directly to a public key (which isn't possible in Bitcoin) has certain security and privacy advantages.
+> When sending Bitcoin the recipient is (in most cases) a Bitcoin address. A Bitcoin address is derived from a public key and allows. Using an address as the recipient compared to sending directly to a public key (which isn't possible in Bitcoin) has certain security and privacy advantages.
 - Why do we need addresses? Other cryptos don't have them.
 > This could be too deep. "Addresses provide greater security because even if the ECDSA breaks the double hash will still protect your money."
 - How many private keys are there? Isn't it likely that someone else will generate the same private key?
 > A private key is 64-characters long, each of which can be one of 16 characters, called hexadecimal (0-9 + A-G). That means there are 16^64 or 2^256 possible private keys. That is 115,79 quattuorvigintillion or 115792089237316195423570985008687907853269984665640564039457584007913129639936.
 As a reference there are about 2^229 atoms in the milky way. How likely is it that you can tell me which of these atoms I'm currently thinking about?
+https://www.youtube.com/watch?v=S9JGmA5_unY
 - What does it mean to own bitcoin?
 > Owing bitcoin means nothing more and nothing less than being in possession of the private key(s) that allow you to unlock/transfer these bitcoins. Just a random number, but undoubtedly a very important one.
 
