@@ -3,10 +3,10 @@
 
 ## Table of Contents
 1. [Project description](#project-description)
-2. Contributor workflow (please read)
-3. Epoches and chapters
-4. Sources
-5. Help needed
+2. [Contributor workflow (please read)](#contributor-workflow)
+3. [Epoches and chapters](#preliminary-draft-of-epoches-and-chapters)
+4. [Sources](#possible-sources)
+5. [Help needed](#help-needed)
 
 ## Project description
 The basic idea is to create an app that explains the origins of money, what money even is, why bitcoin is important and why it could (will) be the next step in monetary evolution and at the end give some tips on how to get started, i.e where to buy, where to store etc.
@@ -224,3 +224,12 @@ _______________________________________________
 ## Infographics:
 - Bitcoin History: The Complete History of Bitcoin Timeline: http://historyofbitcoin.org/
 - A History of Bitcoin and Cryptocurrency’s Greatest Moments Infographic: https://coincentral.com/bitcoin-history/
+
+
+## Help needed
+If you or someone you know would like to help, please do so! The following is greatly appreciated:
+- Content creation: You can easily answer some of the questions above? Then please do so and write a few paragraphs.
+- Graphic creation: You are a great designer? We will need a few nice graphics to make the app aesthetically pleasing. Please contact us!
+- App adaptation: We will need to customise the base app (see project description) to our needs and already have a lot of cool ideas to make the learning experience even more interesting which will need custom development. If you like the project, have coding skills and are interested to help, please have a look at the open issues and/or contact us.
+
+If you have any other ideas, please also let us know.
