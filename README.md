@@ -22,16 +22,16 @@ _______________________________________________
 
 ## Contributor workflow
 
-The content is maintained using the "contributor workflow" where everyone contributes patch proposals using "pull requests".
+The content is maintained using a "contributor workflow" where everyone contributes patch proposals using "pull requests".
 This facilitates social contribution, easy testing and peer review.
 
 To contribute a patch, the workflow is as follows:
 
-  1. Fork repository
-  2. Create topic branch
-  3. Commit patches
-  4. Push changes to your fork
-  5. Create pull request to
+
+  1. Create topic branch
+  2. Commit changes
+  4. Push changes to your branch
+  5. Create pull request to the master branch
 
 In general [commits should be regard one chapter/topic](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention) and diffs should be easy to read.
 
@@ -105,6 +105,8 @@ _______________________________________________
 - How did he release his invention?
 - Did he premine?
 #### Early usage of bitcoin
+- Is it only used for illegal things?
+- Do only crooks use bitcoin?
 - Is Bitcoin anonymous?
 #### famous exchange hacks
 - Third parties are a secuity hole.
@@ -141,10 +143,17 @@ https://www.youtube.com/watch?v=S9JGmA5_unY
 > Owing bitcoin means nothing more and nothing less than being in possession of the private key(s) that allow you to unlock/transfer these bitcoins. Just a random number, but undoubtedly a very important one.
 
 #### Wallets
-- What is a wallet?
-- Why is "wallet" a misnamer?
-- What does a wallet do?
+- What is a wallet? Why is "wallet" a mis-namer? What does a wallet do?
+> A common misconception about bitcoin is that bitcoin wallets "contain" bitcoin. In fact, a wallet only contains digital keys (private keys). The “coins” are recorded in the blockchain. Users control the coins by signing transactions with the private keys in their wallets. In that sense, a bitcoin wallet actually is a keychain.
+- How did wallets evolve?
+> At first a bitcoin wallet would create a set of key-pairs which were unrelated to each other which means each of these keys had to be backed up individually, later with Bitcoin-Improvement-Proposal-32, short BIP-32, hierarchical deterministic wallets were introduced. This type of wallet stores one master private key from which all child keys are mathematically derived. This greatly reduced the complexity as it allowed users to only back up one private key. Another great improvement was the introduction of BIP-39 which allows us to represent the master private key as a mnemonic sentence, consisting of 12 to 24 words. From then on you did not have to back up a 64 character private-key for which one single wrong character means loss of coins but instead a sentence of easily recognisable words.
 - What types of wallets are there?
+> There are a few different kinds of wallets, depending on different use cases. Generally there is a spectrum from hot to cold wallets and a classification between custodial and non-custodial wallets.  
+A *custodial* wallet is a wallet where you do not hold the master private key (seed) yourself, but a third party. Examples of that is leaving your bitcoin on an exchange. If the exchange gets hacked, your coins are likely lost. In the true bitcoin-spirit we would advise against using such a wallet as it comes with tremendous risks, which are not worth the convenience.
+A *non-custodial* wallet is a wallet that contains the master private key (seed), thereby having full and sole control over the coins. Examples of such wallets are the following:  
+*Paper wallets:* a paper wallet is a piece of paper with a privat key and an address printed on it. Paper wallets are generally not recommended anymore as it is easy to get it wrong and loose your coins.
+*Software wallets:* An application that contains your master private key and let's you send and receive coins easily. A software wallet is recommended for low amounts, due to the insecure nature of a smartphone.  Similarly you would not put all your fiat money in to your purse/wallet that you carry around day in day out.
+*Hardware wallets:* A dedicated device with the sole purpose of keeping your seed secure while still allowing you to interact with your coins with ease. This type of wallet is generally recommended to safekeep larger amounts of coins.
 #### Transactions
 - How is a tx constructed?
 - What are inputs and outputs?
