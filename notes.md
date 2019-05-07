@@ -4,7 +4,7 @@ Once the user gets Bitcoin, we explain then - at a very high level - technical, 
 
 ----------------------------------------------
 
-#Get your first Bitcoin today
+# Get your first Bitcoin today
 To receive Bitcoin, you need a wallet that can securely store the private key of your Bitcoin. There are many user-friendly wallets. Below are some popular and open source wallets:
 
 ### For Android
