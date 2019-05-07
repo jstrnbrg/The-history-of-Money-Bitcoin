@@ -1,10 +1,10 @@
 Get some bitcoin. how to send-receive and how to securely store bitcoin. This short section helps the user to get some bitcoin. Maybe worth just 5$. We encourage them to find if they have any bitcoiner friend. If not, we direct them to a group of people who can gift them  $5 worth of bitcoin. How to earn bitcoin and how to participate in the bitcoin economy. Best practices while buying bitcoin.
 
-Once the user gets Bitcoin, we explain then - at a very high level - technical, economical and game theoretical side of bitcoin.
+Once the user gets Bitcoin, we explain - at a very high level - technical,  game theoretical and economical side of bitcoin.
 
 ----------------------------------------------
 
-# Get your first Bitcoin today
+#Get your first Bitcoin today
 To receive Bitcoin, you need a wallet that can securely store the private key of your Bitcoin. There are many user-friendly wallets. Below are some popular and open source wallets:
 
 ### For Android
@@ -17,9 +17,9 @@ XYZ ( i would not recommend green address as of now. [Here](https://twitter.com/
 Trezor, Coldcard wallet, ledger
 
 ### For Desktop
-[Electrum] (https://electrum.org)
+[Electrum](https://electrum.org)
 
-A wallet which is always connected to the Internet is called a hot wallet. Hot wallets are less secure compared to the cold wallet. A cold wallet is a wallet which is never connected to the internet. Since your mobile is a hot wallet, it is not advisable to keep a big amount of Bitcoin in it.
+A wallet which is always connected to the Internet is called a hot wallet. Hot wallets are less secure compared to the cold wallet which is never connected to the internet. Since your mobile is a hot wallet, it is not advisable to keep a big amount of Bitcoin in it.
 
 In this guide, you will learn how to receive-send Bitcoin with a mobile wallet. You will also learn - at a high level - how Bitcoin works and what is the importance of Bitcoin. At last, you will get some tips that can help you keep your Bitcoin safe from adversaries like hackers, central authorities and mistakes from your lack of technical knowledge.
 
@@ -33,12 +33,20 @@ Today one Bitcoin is worth nearly $5000. Getting one whole Bitcoin could be diff
 Once someone is willing to send you Bitcoin, you need to give them a bitcoin address. (You can also receive bitcoin over the [lightning network](a link which leads to 'how to receive Bitcoin over lightning'). A Bitcoin address looks similar to this: 36Y2BC6LehT4YfKS89asiMcqebFMwYCLGY.  
 
 ## Install and set up a Bitcoin wallet
-Here we will explain how to use the Samourai Wallet in your android phone
+Here we will explain how to use the Samourai Wallet in your android phone. 
+- Install the [Samourai Wallet](https://play.google.com/store/apps/details?id=com.samourai.wallet) from play store.
+- you will be asked to enter a passphrase of your choice. Next, you will also be asked to write down 12 English words which the app generated. Then you may be asked to set up the pin to unlock the app every time you want to open it. These passphrase and 12 English Words are super critical information. If you uninstall the app, you lose the phone or you forget the pin, passphrase and 12 words are all you need to recover your bitcoin wallet. Write down this passphrase and 12 words on a paper. Do not make a single spelling mistake. Do not make a digital copy of this paper. Do not store this information in any type of digital form. Keep this paper at a secure place which waterproof and fireproof. 
+
+Once the wallet is set up, you can generate a Bitcoin address. If the sender and you are at the same location, he can scan the QR code of your BItcoin address. If he is at a remote location, you can copy the address by touching on the address and send it by EMail or chat to the sender.
+Once he sends the Bitcoin on your address, you should see the transaction in the app. If you touch on the transaction, you may find some details number of confirmations and transaction fees per byte. 
+What is confirmation and what is the transaction fees? It is discussed later in the section. Once you get the bitcoin, you can send bitcoin to others. For that, you have to provide the Bitcoin address of the receiver and you have to choose how much transaction fee you want to pay. The wallet may recommend you how much fee you should pay. We learn about this in detail later. 
 
 # What is Bitcoin? How does it work?
+Let's understand Bitcoin by re-inventing it. 
+WORK IN PROGRESS
 
 # Why Bitcoin? What is the importance of Bitcoin?
-
+WORK IN PROGRESS
 
 
 ## Some tips for newbies (Uncategorized stuff)
@@ -60,6 +68,3 @@ Here we will explain how to use the Samourai Wallet in your android phone
 In Bitcoin world 'Don't trust, verify.'
 
 Be skeptical of people who are invested in altcoins. Altcoins are the coins which are not Bitcoin. 
--------------------------------------------
-
-
