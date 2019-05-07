@@ -41,6 +41,8 @@ Once the wallet is set up, you can generate a Bitcoin address. If the sender and
 Once he sends the Bitcoin on your address, you should see the transaction in the app. If you touch on the transaction, you may find some details like number of confirmations and transaction fees per byte. 
 What is confirmation and what is the transaction fees? It is discussed later in the section. Once you get the bitcoin, you can send bitcoin to others. For that, you have to provide the Bitcoin address of the receiver and you have to choose how much transaction fee you want to pay. The wallet may recommend you how much fee you should pay. You will learn about this in detail later. 
 
+Now uninstall the app, re-install and recover the wallet by entering the passphrase and 12 words.
+
 # What is Bitcoin? How does it work?
 Let's understand Bitcoin by re-inventing it. 
 WORK IN PROGRESS
