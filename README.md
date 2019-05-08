@@ -35,13 +35,6 @@ To contribute a patch, the workflow is as follows:
 
 In general [commits should be regard one chapter/topic](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention) and diffs should be easy to read.
 
-Commit messages should be verbose by default consisting of a short subject line (50 chars max), a blank line and detailed explanatory text as separate
-paragraph(s), unless the title alone is self-explanatory (like "Corrected typo in Makefile") in which case a single title line is sufficient.
-
-Further explanation [here](http://chris.beams.io/posts/git-commit/).
-
-If a particular commit references another issue, please add the reference. For example: `refs #1234` or `fixes #4321`.
-
 Please refer to the [Git manual](https://git-scm.com/doc) for more information about Git.
 
 If a pull request is not to be considered for merging (yet), please prefix the title with [WIP] or use [Tasks Lists](https://help.github.com/articles/basic-writing-and-formatting-syntax/#task-lists) in the body of the pull request to indicate tasks are pending.
@@ -49,6 +42,11 @@ If a pull request is not to be considered for merging (yet), please prefix the t
 
 At this stage one should expect comments and review from other contributors.
 You can add more commits to your pull request by committing them locally and pushing to your fork until you have satisfied all feedback.
+
+_______________________________________________
+
+![alt text](./assets/img/screenshot.png "Screenshot")
+
 
 _______________________________________________
 
@@ -158,26 +156,33 @@ A *non-custodial* wallet is a wallet that contains the master private key (seed)
 - How is a tx constructed?
 - What are inputs and outputs?
 - What are fees? Can I pay no fee?
-> A transactions is a piece of data that describes the transfer of value between participants in the bitcoin system. Each transaction is a public entry in bitcoin’s global blockchain, visible and verifiable to everyone. At the system level, there are no coins, no senders, no recipients, no balances, no accounts, and no addresses. All those things are constructed at a higher level for the benefit of the user, to make things easier to understand. The fundamental building blocks of a bitcoin transaction are unspent transaction outputs. Transaction outputs are indivisible chunks of bitcoin currency, similarly to how you cannot cut up a paper bank note. However you can spend your note and get some change back. The same is the case in bitcoin. If you want to spend a fraction of one of one of your unspent transaction outputs your wallet creates a transaction with one input (the unspent transaction output) and two outputs, one to the recipient and one back to you. Receiving bitcoins means that your wallet has detected a new UTXO that is spendable with the keys in your wallet. Thus, your bitcoin “balance” is the sum of all UTXO that your wallet can spend and which may be scattered among hundreds of transactions. The concept of a balance is created by the wallet software. You have probably heard that a bitcoin transaction costs fees. Such a fee isn't explicitly defined in the transaction but instead is the difference between the sum of the inputs and the sum of outputs. The higher that difference, the higher the fee, the higher the incentive for miners (which we will talk about soon), to verify and include your transaction in the blockchain. That means, the less urgent your transaction is, the lower of a fee you can choose.   
+> A transactions is a piece of data that describes the transfer of value between participants in the bitcoin system. Each transaction is a public entry in bitcoin’s global blockchain, visible and verifiable to everyone. At the system level, there are no coins, no senders, no recipients, no balances, no accounts, and no addresses. All those things are constructed at a higher level for the benefit of the user, to make things easier to understand. The fundamental building blocks of a bitcoin transaction are unspent transaction outputs. Transaction outputs are indivisible chunks of bitcoin currency, similarly to how you cannot cut up a paper bank note. However you can spend your note and get some change back. The same is the case in bitcoin. If you want to spend a fraction of one of one of your unspent transaction outputs (UTXO) your wallet creates a transaction with one input (the unspent transaction output) and two outputs, one to the recipient and one back to you. Receiving bitcoins means that your wallet has detected a new UTXO that is spendable with the keys in your wallet. Thus, your bitcoin “balance” is the sum of all UTXO that your wallet can spend and which may be scattered among hundreds of transactions. The concept of a balance is created by the wallet software. You have probably heard that a bitcoin transaction costs fees. Such a fee isn't explicitly defined in the transaction but instead is the difference between the sum of the inputs and the sum of outputs. The higher that difference, the higher the fee, the higher the incentive for miners (which we will talk about soon), to verify and include your transaction in the blockchain. That means, the less urgent your transaction is, the lower of a fee you can choose.
 #### Bitcoin Network
 - What is a node?
 - What types of nodes are there?
 - What are nodes doing?
-> Bitcoin full nodes track all available and spendable outputs, known as unspent transaction outputs (UTXOs). The collection of all UTXO is known as the UTXO set and currently numbers in the millions of UTXO. The UTXO set grows as new UTXO is created and shrinks when UTXO is consumed. Every transaction represents a change (state transition) in the UTXO set as each transaction consumes UTXOs as inouts and creates new UTXOs as outputs.
-- What if nodes run different, incompatible software?
-- Difference between hard- and softfork?
-> Softfork reduces the set of valid operations (e.g. 0.5 MB blocks would still be valid to nodes that did not follow the soft fork)  whereas hardforks introduce rules that would have been invalid before (e.g. 2 MB blocks are invalid right now so only nodes that update will see them as valid)
+> Bitcoin full nodes track all available and spendable outputs, known as unspent transaction outputs (UTXOs) and verify the validity of each transaction. The collection of all UTXO is known as the UTXO set and currently numbers in the millions of UTXO. The UTXO set grows as new UTXO is created and shrinks when UTXO is consumed. Every transaction represents a change (state transition) in the UTXO set as each transaction consumes UTXOs as inputs and creates new UTXOs as outputs. The only kind of transaction that is creating completely new bitcoins is called a coinbase transaction which we will cover in the chapter on mining.
 #### Blockchain
 - Why do I need to know the complete blockchain?
 - Isn't a blockchain slow and inefficient database?
 - What makes the bitcoin blockchain so special?
 #### Mining & Consensus
-- How are miners getting paid? and why?
 - What are miners doing?
+- How are miners getting paid? and why?
 - What are coinbase transactions?
 - Which functions does mining fullfill?
 - How many Bitcoins are there and how many will there be?
+> Mining secures the bitcoin system and enables the emergence of network-wide consensus (agreement on state) without a central authority, i.e. no central server controls a database to which each transaction is added. Instead, each miner takes new transactions and builds a block. Each new block contains a reference to the last valid block, thereby building a chain of blocks. He then tries to solve a cryptographic puzzle, while competing against all other miner. The miner that first finds a valid solution has won and publishes his block. Then all the other miners and full nodes will confirm that the block is indeed valid. Valid means that each transaction in the block and the solution to the block puzzle are correct. If that is the case, each miner adds the block to their local copy of the blockchain and starts the next mining round. If there is a mistake in the block, each miner discards the block and starts mining again.  Finding a solution to a block puzzle is extremely difficult and is adjusted every two weeks to keep the average time between new blocks at 10 minutes. If new miners joined the network, i.e. the total computing power increased, the block puzzle will become harder. If instead a lot of miners are turned of, the puzzle will become easier again. In order to incentivise miners to do that work, each miner includes a special transaction in the block they are trying to find the solution for, i.e the coinbase transaction which credits the miner newly created bitcoin. If the miner wins and is the first one to publish a new block with a valid solution, that block with the included coinbase transaction is added to the blockchain, thereby crediting the miner newly minted bitcoin. Moreover, a miner also gets credited with the sum of all fees of the transactions in a block. This obviously incentivises miners, to prefer transactions with higher fees, thereby adding them to the blockchain faster.  The reward of newly minted coins and transaction fees is an incentive scheme that aligns the actions of miners with the security of the network, while simultaneously implementing the monetary supply mechanism. That so called block reward halves every 4 years. It started at 50 BTC per block, currently is at 12.5 BTC per block and will half again to 6.15 BTC per block in mid-2020 and so on, with a maximum cap at a total of ~21 million bitcoin.  This predetermined issuance rate results in a reducing inflation rate over time. After the next halvening (mid-2020) the inflation rate will be below 2% and thereby lower than that of most national currencies.
+Summed up, mining has the following functions:
+A) bitcoin issuance via block reward
+B) decentralised voting on which miner is allowed to add a new block via the solution to the block puzzle
+
+- What if nodes run different, incompatible software?
+- Difference between hard- and softfork?
+> The software that runs on most miners and full nodes is called Bitcoin Core. It's job is to checks each new block and the transactions in that block for validity. When that software needs to be updated two things could happen, depending on the types of changes. A) Nodes that did not update  still see blocks from miners that did update as valid, i.e. the update is backwards-compatible. That is called a soft-fork. B) Nodes that did not update see blocks from miners that did update as invalid, i.e. the update is backwards-incompatible. That is called a hard-fork. Put differently, a soft-fork reduces the set of valid operations (e.g. 0.5 MB blocks would still be valid to nodes that did not follow the soft fork)  whereas hard-forks introduce rules that would have been invalid before (e.g. 2 MB blocks are invalid right now so only nodes that update will see them as valid)
+
 - How are nodes agreeing on which chain(tip) is the right one?
+> I think this is a bit too deep for the intended audience.
 #### Why Bitcoin is immutable
 -
 #### How to kill bitcoin
