@@ -10,7 +10,7 @@
 
 ## Project description
 The basic idea is to create an app that explains the origins of money, what money even is, why bitcoin is important and why it could (will) be the next step in monetary evolution and at the end give some tips on how to get started, i.e where to buy, where to store etc.
-The app is not an attempt to outlay monetary history or the technicalities of Bitcoin as accurate and nuanced as possible. The goal is to give a 1-2 hour introduction and get people familiar and interested in the topic. After going through the app they should have some basic understanding of Bitcoin so that they start exploring on their own.
+The app is not an attempt to outlay monetary history or the technicalities of Bitcoin as accurate and nuanced as possible. The goal is to give a ~1 hour introduction and get people familiar and interested in the topic. After going through the app they should have some basic understanding of Bitcoin so that they start exploring on their own.
 This app seems great as a base and can be adapt it to our content/needs as necessary.  
 HistoryOfEverything: https://github.com/2d-inc/HistoryOfEverything  
 The app is open-source under a MIT License.
@@ -74,9 +74,8 @@ Let's now explore some early forms of money.
 
 _______________________________________________
 
-### 2. Early forms of money
+### 2. Proto money
 > The most familiar form of money to most are coins. Yet money existed long before the invention of coinage and different cultures have flourished using different kinds of money, all of them being goods which were highly saleable compared to other goods.
-#### Proto money
 #### Wampum beads
 > Wampum is a traditional shell bead of the Eastern Woodlands tribes of American Indians. Before contact with Europeans, strings of wampum were used for storytelling, ceremonial gifts, and recording important treaties and historical events, such as the Two Row Wampum Treaty or The Hiawatha Belt. Wampum was also used by the northeastern Indian tribes as a means of exchange, strung together in lengths for convenience. The process to make wampum was labor-intensive with stone tools. Only coastal tribes had sufficient access to the basic shells to make wampum. When European Colonists came to the Americas, they adopted wampum as money to trade with the native peoples of New England and New York. Eventually, the Colonists applied their technologies to more efficiently produce wampum, which caused inflation and ultimately destroyed wampum as a currency.
 #### Rai stones
@@ -90,31 +89,22 @@ _______________________________________________
 > Sometime around 1100 B.C., the Chinese moved from using actual tools and weapons as a medium of exchange to using miniature replicas of the same tools cast in bronze. Nobody wants to reach into their pocket and impale their hand on a sharp arrow so, over time, these tiny daggers, spades and hoes were abandoned for the less prickly shape of a circle, which became some of the first coins. Although China was the first country to use recognizable coins, the first minted coins were created not too far away in Lydia (now western Turkey).
 #### Coins ~ 600 BC
 > In 600 B.C., Lydia's King Alyattes minted the first official currency. The coins were made from electrum, a mixture of silver and gold that occurs naturally, and stamped with pictures that acted as denominations. Unfortunately, minting the first coins and developing a strong trading economy couldn't protect Lydia from the swords of the Persian army and when Lydia was conquered by the Persians in 546 BCE, coins were introduced to Persia. In China, gold coins were first standardized during the Qin dynasty (221–207 BCE).
-Florin!!!
+https://en.wikipedia.org/wiki/Coin
 #### Egyptian grain banks ~ 330 BC
-> Ancient Egyptian governments centralized harvests in state warehouses. Grain harvesters would deposit their grain into the central warehouses for security and convenience. The depositors could then withdraw a particular lot of grain when they wanted to make a purchase. Sometimes the deposits into these Egyptian grain banks were voluntary and other times it was required by the king. Written orders, i.e. a cheque, for grain withdrawal could be used to pay tax collectors, priests and merchants. Eventually, the metallic monetary system displaced the use of grain as a medium of exchange by the Roman era.
-#### Paper Money
-> While the invention of coins solved many problems for money, there were still disadvantages. For one, coins were molded from precious metals including gold. Circulation and supply growth was limited by the availability of those precious metals. Furthermore, they took up space and were heavy, which made storing them and carrying them inconvenient. In 100 B.C., the Chinese invented the first form of paper. Not long after, the first use case emerged. Rather than carrying coins everywhere, people could leave their valuables at the bank, and the bank would provide a signed note that verified the value of the item(s) a person had in the bank; i.e., the first banknote. This system was based on trust that the note could be exchanged for actual valuables. Instead of exchanging for the tangible valuables at any time, people could continue to exchange the notes. With Mongolia’s invasion of China, the Mongol Empire picked up on the practice of paper currency as well. In the 13th century, Marco Polo brought paper money back to Europe. By the 17th century, Europe had caught on to the trend and goldsmiths adopted the practice of using notes as a security, backed by the goldsmiths’ gold itself. Eventually, the banks started using bank notes for depositors and borrowers to carry around instead of coins. These notes could be taken to the bank at any time and exchanged for their face values in silver or gold coins. This paper money could be used to buy goods and operated much like currency today, but it was issued by banks and private institutions, not the government, which is now responsible for issuing currency in most countries. Because people were using and holding the paper note rather than exchanging everything for the backed valuables, European banks started to issue more notes than could be all backed up at once, betting on the hypothesis that every individual holding their notes would not all come knocking on their door the next day asking for gold. This practice is called fractional reserve banking and is at the center of modern money.
-#### Bi-metal standard
->
+> Ancient Egyptian governments centralised harvests in state warehouses. Grain harvesters would deposit their grain into the central warehouses for security and convenience. The depositors could then withdraw a particular lot of grain when they wanted to make a purchase. Sometimes the deposits into these Egyptian grain banks were voluntary and other times it was required by the king. Written orders, i.e. a cheque, for grain withdrawal could be used to pay tax collectors, priests and merchants. Eventually, the metallic monetary system displaced the use of grain as a medium of exchange by the Roman era.
+#### Paper Money ~ 600 - 1200 AD
+https://en.wikipedia.org/wiki/Banknote
+> While the invention of coins solved many problems for money, there were still disadvantages. For one, coins were moulded from precious metals including gold. Circulation and supply growth was limited by the availability of those precious metals. Furthermore, they took up space and were heavy, which made storing them and carrying them inconvenient. In 600 AD the Chinese invented the first form of paper. Rather than carrying coins everywhere, people could leave their valuables at the bank, and the bank would provide a signed note that verified the value of the item(s) a person had in the bank; i.e., the first banknote. This system was based on trust that the note could be exchanged for actual valuables. Instead of exchanging for the tangible valuables at any time, people could continue to exchange the notes. With Mongolia’s invasion of China, the Mongol Empire picked up on the practice of paper currency as well.
+#### Paper money in Europe ~1200 AD
+> In the 13th century, while most of Europe was using metal coins, especially the Florin for international trade, Marco Polo brought paper money to Europe. By the 17th century, Europe had caught on to the trend and goldsmiths adopted the practice of using notes as a security, backed by the goldsmiths’ gold itself. Eventually, the banks started using bank notes for depositors and borrowers to carry around instead of coins. These notes could be taken to the bank at any time and exchanged for their face values in silver or gold coins. This paper money could be used to buy goods and operated much like currency today, but it was issued by banks and private institutions, not the government, which is now responsible for issuing currency in most countries. Because people were using and holding the paper note rather than exchanging everything for the backed valuables, European banks started to issue more notes than could be all backed up at once, betting on the hypothesis that every individual holding their notes would not all come knocking on their door the next day asking for gold. This practice is called fractional reserve banking and is at the centre of modern finance.
+
 #### Gold standard
-> The gold standard is a monetary system in which paper money is freely convertible into a fixed amount of gold. In other words, in such a monetary system, gold backs the value of money. By 1821, England became the first country to officially adopt a gold standard.  As all trade imbalances between nations were settled with gold, governments had strong incentive to stockpile gold for more difficult times. Those stockpiles still exist today. The international gold standard emerged in 1871 following its adoption by Germany. By 1900, the majority of the developed nations were linked to the gold standard. Ironically, the U.S. was one of the last countries to join. From 1871 to 1914, the gold standard was at its pinnacle. During this period, near-ideal political conditions existed in the world. Governments worked very well together to make the system work, but this all changed forever with the outbreak of World War 1 in 1914. When governments realised they needed more money to finance the war than they could raise, they resorted to printing more money.
-
-
-
-_______________________________________________
-
-### Emergence of banking (not sure if included)
-> While prostitution has long been regarded as the first profession and lawyers as close second, the banking profession is clearly the third oldest known to humankind. The invention of banking preceded that of coinage by several thousand years. Banking appears to have originated in Ancient Mesopotamia. Receipts in the form of clay tablets were used to record transfers between parties. Among some of the earliest recorded laws (Code of Hammurabi), pertain to the regulation of the banking industry in Mesopotamia. The development of banking in Mesopotamia is quite interesting. It illustrates that all the modern practices such as deposits, interest, loans and letters of credit existed from the time of the first great civilisations on earth. The emergence of the banking system was an integral part in the development of civilisation. As the monetary system gravitated toward a metallic form, the banking industry was needed for safekeeping as well as money changing.
-#### Greek banking
-> As the standardisation of coinage began to take hold among the Greek city-states, the variety in weight standards created a demand for foreign exchange transactions thus creating the profession of moneychangers. The tables utilised by the money changing trade were trapezium in shape and usually marked with a series of lines and squares used in calculations. This is the origin of the word “trapezitai” – the name used for Greek bankers. The word “bank” owes its heritage to the Italian word “banca” meaning bench or counter. This need to store wealth greatly increased the ability to borrow thus allowing the foundations of modern day credit to emerge. The development of the banking industry was a milestone in the evolution of civilization. Both the banking industry and the monetary system fostered interaction among the peoples of the world thus allowing international trade.
-
-#### Roman banking
-> The Romans institutionalized banking building upon the Delos model but also attempted to standardize the monetary system. However, in the aftermath of the fall of the Roman Empire, banking disappeared in the chaos of barbarian invasions. The collapse of Rome ushered in the Dark Ages. The absence of banking led to the brake down of trade and organization. Civilization had been dealt a severe deathblow in Europe. It would take several centuries to pass before general prosperity and a rise in culture and living standards would reemerge once again out of necessity.
-
-#### Italian banking
->
-
+> Gold has been prevalent throughout the evolution of money and has been one of the most widely accepted forms of money for centuries. The gold standard is a monetary system in which paper money is freely convertible into a fixed amount of gold. In other words, in such a monetary system, gold backs the value of money. In 1821, the United Kingdom became the first country to adopt the gold standard. Prior to this time, silver had been the main world monetary metal, while gold was used intermittently for coinage in one or another country, but never as the standard, to which all other forms of currency were coordinated or adjusted.  As all trade imbalances between nations were settled with gold, governments had strong incentive to stockpile gold for more difficult times. Those stockpiles still exist today. By the 1870s, Germany took on a monometallic gold standard and as of 1900 the US and several other countries followed suit. From 1871 to 1914, the gold standard was at its pinnacle. Governments worked very well together to make the system work, but this all changed forever with the outbreak of World War 1 in 1914. When governments realised they needed more money to finance the war than they could raise, they resorted to printing more money. Unfortunately, printing money created hyperinflation.
+After the war, countries realised the value of tying their currency to a guaranteed value in gold most countries returned to a modified gold standard. The gold-exchange standard collapsed again during the Great Depression of the 1930s, and by 1937 not a single country remained on the full gold standard. The gold standard was largely abandoned in an effort to combat the lingering effects of the Great Depression. The United States in particular decided to make the move away from gold because the country was facing both mounting unemployment and spiraling deflation. In response to a weak economy, the US Federal Reserve and several other governments kept raising interest rates in an attempt to make dollars more valuable and dissuade people from further depleting the US gold reserves. These higher rates worsened the Depression by making the cost of doing business more expensive. Many companies went bankrupt, creating record levels of unemployment.
+In order to rectify the damage done by surging interest rates, in 1933, President Franklin D. Roosevelt cut the US dollar’s ties with gold, allowing the government to pump money into the economy while lowering interest rates.
+#### Bretton Woods Agreement
+> Benton Woods was developed at the United Nations Monetary and Financial Conference held in Bretton Woods in 1944. Under the agreement, currencies were pegged to the price of gold, and the US dollar was seen as a reserve currency linked to the price of gold. This meant that all national currencies were valued in relation to the US dollar, since it had become a dominant reserve currency.
+In turn, the dollar, was convertible to gold at the fixed rate of US$35 per ounce. The global financial system continued to operate upon a gold standard, in a far more indirect manner. By 1971, Nixon called for a temporary suspension of the dollar’s convertibility. Countries were then free to choose any exchange agreement. In 1973, foreign governments let currencies float, which put an end to the Bretton Woods system and any trace of the gold standard was abolished.
 
 _______________________________________________
 
@@ -130,7 +120,7 @@ _______________________________________________
 #### Failed early efforts:
 - DigiCash, e-gold
 - Why did they fail? Centralisation
-- Hal finney, Nic szabo, adam back, w. dai etc.
+- Hal finney, Nick szabo, adam back, w. dai etc.
 #### Cypherpunks
 - (https://www.coindesk.com/the-rise-of-the-cypherpunks)
 - Who were they? What do they stand for?
@@ -155,6 +145,7 @@ _______________________________________________
 _______________________________________________
 
 ### 7. Why bitcoin
+<!-- https://www.youtube.com/watch?v=CyieujRFk3g&feature=youtu.be&t=13840 -->
 #### Forks & Altcoins
 - illusion of next bitcoin
 - why they are doomed to go to zero
@@ -163,6 +154,7 @@ _______________________________________________
 
 
 ### 8. How Bitcoin works
+- Listen to chapter 9 "The bitcoin standard"
 #### Keys & Addresses
 - What is a private key? A long random number
 - What is a public key?
@@ -202,7 +194,7 @@ A *non-custodial* wallet is a wallet that contains the master private key (seed)
 - What is a node?
 - What types of nodes are there?
 - What are nodes doing?
-> Bitcoin is structured as a peer-to-peer network architecture on top of the internet. The term peer-to-peer, or P2P, means that the computers that participate in the net‐ work are peers to each other, that they are all equal, that there are no “special” nodes, and that all nodes share the burden of providing network services. There is no server, no centralized service, and no hierarchy within the network. Although nodes in the bitcoin P2P network are equal, they may take on different roles depending on the functionality they are supporting. A bitcoin node is a collection of functions: routing, the blockchain database, mining, and wallet services. Some nodes, called full nodes, also maintain a complete and up-to-date copy of the blockchain. Full nodes can autonomously and authoritatively verify any transaction without external reference. Some nodes maintain only a subset of the blockchain and verify transactions using a method called simplified payment verification, or SPV. Running a full node gives you the pure bitcoin experience: independent verification of all transactions without the need to rely on, or trust, any other systems.
+> Bitcoin is structured as a peer-to-peer network architecture on top of the internet. The term peer-to-peer, or P2P, means that the computers that participate in the net‐ work are peers to each other, that they are all equal, that there are no “special” nodes, and that all nodes share the burden of providing network services. There is no server, no centralised service, and no hierarchy within the network. Although nodes in the bitcoin P2P network are equal, they may take on different roles depending on the functionality they are supporting. A bitcoin node is a collection of functions: routing, the blockchain database, mining, and wallet services. Some nodes, called full nodes, also maintain a complete and up-to-date copy of the blockchain. Full nodes can autonomously and authoritatively verify any transaction without external reference. Some nodes maintain only a subset of the blockchain and verify transactions using a method called simplified payment verification, or SPV. Running a full node gives you the pure bitcoin experience: independent verification of all transactions without the need to rely on, or trust, any other systems.
 
 > Bitcoin full nodes track all available and spendable outputs, known as unspent transaction outputs (UTXOs) and verify the validity of each transaction. Before forwarding transactions to its neighbours, every bitcoin node that receives a transaction will first verify the transaction. This ensures that only valid transactions are propagated across the network, while invalid transactions are discarded at the first node that encounters them. This independent validation of each new block by every node on the network ensures that the miners cannot cheat.  The collection of all UTXO is known as the UTXO-set and currently numbers in the millions of UTXO. The UTXO set grows as new UTXO is created and shrinks when UTXO is consumed. Every transaction represents a change (state transition) in the UTXO set as each transaction consumes UTXOs as inputs and creates new UTXOs as outputs. The only kind of transaction that is creating completely new bitcoins is called a coinbase transaction which we will cover in the chapter on mining.
 
@@ -261,9 +253,26 @@ _______________________________________________
 - Upcoming lighting features
 
 ### 10. Getting started
+- List of wallets
+- List of exchanges
+- List of good further resources
+- Mechanism to request some Satoshis
 
 _______________________________________________
 
+
+### Emergence of banking (not sure if included)
+> While prostitution has long been regarded as the first profession and lawyers as close second, the banking profession is clearly the third oldest known to humankind. The invention of banking preceded that of coinage by several thousand years. Banking appears to have originated in Ancient Mesopotamia. Receipts in the form of clay tablets were used to record transfers between parties. Among some of the earliest recorded laws (Code of Hammurabi), pertain to the regulation of the banking industry in Mesopotamia. The development of banking in Mesopotamia is quite interesting. It illustrates that all the modern practices such as deposits, interest, loans and letters of credit existed from the time of the first great civilisations on earth. The emergence of the banking system was an integral part in the development of civilisation. As the monetary system gravitated toward a metallic form, the banking industry was needed for safekeeping as well as money changing.
+#### Greek banking
+> As the standardisation of coinage began to take hold among the Greek city-states, the variety in weight standards created a demand for foreign exchange transactions thus creating the profession of moneychangers. The tables utilised by the money changing trade were trapezium in shape and usually marked with a series of lines and squares used in calculations. This is the origin of the word “trapezitai” – the name used for Greek bankers. The word “bank” owes its heritage to the Italian word “banca” meaning bench or counter. This need to store wealth greatly increased the ability to borrow thus allowing the foundations of modern day credit to emerge. The development of the banking industry was a milestone in the evolution of civilization. Both the banking industry and the monetary system fostered interaction among the peoples of the world thus allowing international trade.
+
+#### Roman banking
+> The Romans institutionalized banking building upon the Delos model but also attempted to standardize the monetary system. However, in the aftermath of the fall of the Roman Empire, banking disappeared in the chaos of barbarian invasions. The collapse of Rome ushered in the Dark Ages. The absence of banking led to the brake down of trade and organization. Civilization had been dealt a severe deathblow in Europe. It would take several centuries to pass before general prosperity and a rise in culture and living standards would reemerge once again out of necessity.
+
+#### Italian banking
+>
+
+_______________________________________________
 ## Possible Sources
 
 #### History of Money
