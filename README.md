@@ -117,28 +117,92 @@ _______________________________________________
 _______________________________________________
 
 ### 6. History of Bitcoin
+The invention of Bitcoin is built on decades of work and by tracing this history, we can understand the motivations behind the movement that spawned bitcoin and share its vision for the future.
+
+Before the 1970s, cryptography was primarily practiced in secret by military or spy agencies. But, that changed when two publications brought it into the open: the US government publication of the [Data](http://csrc.nist.gov/publications/fips/fips46-3/fips46-3.pdf) Encryption Standard and the first publicly available work on public-key cryptography, “[New Directions in Cryptography](https://www-ee.stanford.edu/~hellman/publications/24.pdf)” by Dr Whitfield Diffie and Dr Martin Hellman.
+
+In the 1980s, Dr David Chaum wrote extensively on topics such as anonymous digital cash and pseudonymous reputation systems, which he described in his [paper](http://www.chaum.com/publications/Security_Wthout_Identification.html) “Security without Identification: Transaction Systems to Make Big Brother Obsolete”. Over the next several years, these ideas coalesced into a movement. It gave birth to the Cypherpunks.
+
+
+#### Cypherpunks
+
+- (https://www.coindesk.com/the-rise-of-the-cypherpunks)
+- Who were they? What do they stand for?
+- Manifesto: https://github.com/NakamotoInstitute/nakamotoinstitute.org/blob/master/sni/static/docs/cypherpunk-manifesto.txt
+
+In late 1992, Eric Hughes, Timothy C May, and John Gilmore founded a small group that met monthly at Gilmore’s company Cygnus Solutions in the San Francisco Bay Area. The group was humorously termed “cypherpunks” as a derivation of “cipher” and “cyberpunk.”
+
+The Cypherpunks mailing list was formed at about the same time, and just a few months later, Eric Hughes published “A Cypherpunk’s Manifesto“. He wrote:
+
+“Privacy is necessary for an open society in the electronic age. Privacy is not secrecy. A private matter is something one doesn’t want the whole world to know, but a secret matter is something one doesn’t want anybody to know. Privacy is the power to selectively reveal oneself to the world.” Read [here](https://github.com/NakamotoInstitute/nakamotoinstitute.org/blob/master/sni/static/docs/cypherpunk-manifesto.txt) the full manifesto.
+
+Some notable Cypherpunks and their achievements:
+
+- Jacob Appelbaum: Tor developer
+- Julian Assange: Founder of WikiLeaks
+- Dr Adam Back: Inventor of Hashcash, co-founder of Blockstream
+- Bram Cohen: Creator of BitTorrent
+- Hal Finney: Main author of PGP 2.0, creator of Reusable Proof of Work
+- Tim Hudson: Co-author of SSLeay, the precursor to OpenSSL
+- Paul Kocher: Co-author of SSL 3.0
+- Moxie Marlinspike: Founder of Open Whisper Systems (developer of Signal)
+- Steven Schear: Creator of the concept of the “warrant canary”
+- Bruce Schneier: Well-known security author
+- Zooko Wilcox-O’Hearn: DigiCash developer, Founder of Zcash
+- Philip Zimmermann: Creator of PGP 1.0
+
 #### Failed early efforts:
 - DigiCash, e-gold
 - Why did they fail? Centralisation
 - Hal finney, Nick szabo, adam back, w. dai etc.
-#### Cypherpunks
-- (https://www.coindesk.com/the-rise-of-the-cypherpunks)
-- Who were they? What do they stand for?
-- Manifesto: https://github.com/NakamotoInstitute/nakamotoinstitute.org/blob/master/sni/static/docs/cypherpunk-manifesto.txt
+
+In 1997, Dr Adam Back created [Hashcash](http://www.hashcash.org/papers/announce.txt), which was designed as an anti-spam mechanism that would essentially add a (time and computational) cost to sending email, thus making spam uneconomical.
+
+He envisioned that Hashcash would be easier for people to use than Chaum’s digicash since there was no need for the creation of an account. Hashcash even had some protection against “double spending.”
+
+Later in 1998, Wei Dai published a [proposal](http://www.weidai.com/bmoney.txt) for “b-money”, a practical way to enforce contractual agreements between anonymous actors. He described two interesting concepts. First, a protocol in which every participant maintains a separate database of how much money belongs to user. Secondly, a variant of the first system where the accounts of who has how much money are kept by a subset of the participants who are incentivized to remain honest by putting their money on the line.
+
+Cypherpunks had already been building on each other’s work for decades, experimenting and laying the frameworks that Bitcoin needed in the 1990s, but a pivotal point was the creation of cypherpunk money in the 2000s.
+
+In 2004, Hal Finney created [reusable proof of work](https://cryptome.org/rpow.htm) (RPOW), which built on Back’s Hashcash. RPOWs were unique cryptographic tokens that could only be used once, much like unspent transaction outputs in bitcoin. However, validation and protection against double spending was still performed by a central server.
+
+Nick Szabo published a [proposal](http://unenumerated.blogspot.com/2005/12/bit-gold.html) for “bit gold” in 2005 – a digital collectible that built upon Finney’s RPOW proposal. However, Szabo did not propose a mechanism for limiting the total units of bit gold, but rather envisioned that units would be valued differently based upon the amount of computational work performed to create them.
+
 #### Birth of bitcoin and bitcoin white paper
 - Who was Nakamoto?
 - What happened to his coins?
 - What happened to him?
 - How did he release his invention?
 - Did he premine?
+
+Finally, in 2008, Satoshi Nakamoto, a pseudonym for a still-unidentified individual or individuals, published the bitcoin whitepaper, citing both hashcash and b-money.
+
+On 31 October 2008, a link to a paper authored by Satoshi Nakamoto titled Bitcoin: A Peer-to-Peer Electronic Cash System was posted to a cryptography mailing list.[12] This paper detailed methods of using a peer-to-peer network to generate what was described as "a system for electronic transactions without relying on trust". On 3 January 2009, the bitcoin network came into existence with Satoshi Nakamoto mining the genesis block of bitcoin (block number 0), which had a reward of 50 bitcoins. Embedded in the coinbase of this block was the text: "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks"
+
+The text refers to a headline in The Times published on 3 January 2009.[18] This note has been interpreted as both a timestamp of the genesis date and a derisive comment on the instability caused by fractional-reserve banking.
+
+The value of the first bitcoin transactions were negotiated by individuals on the bitcoin forum with one notable transaction of 10,000 BTC used to indirectly purchase two pizzas delivered by Papa John's.
+
+Satoshi dedicated a section of the [bitcoin whitepaper](http://bitcoin.org/bitcoin.pdf) to privacy, which reads:
+
+“The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the ‘tape’, is made public, but without telling who the parties were.” Read full Bitcoin whitepaper [here](http://bitcoin.org/bitcoin.pdf).
+
+Satoshi Nakamoto triggered an avalanche of progress with a working system that people could use, extend and fork.
+
+Bitcoin strengthened the entire cypherpunk movement by enabling organizations such as WikiLeaks to continue operating via bitcoin donations, even after the traditional financial system had cut them off.
+
+
 #### Early usage of bitcoin
 - Is it only used for illegal things?
 - Do only crooks use bitcoin?
 - Is Bitcoin anonymous?
+
+
 #### famous exchange hacks
 - Third parties are a secuity hole.
 - How does bitcoin enable you to not trust any third party?
 #### Waves of adoption and price bubbles
+
 #### Scaling bitcoin debate, UASF
 - Vertical scaling (bigger blocks) vs layered scaling
 - UASF: which proves that miners have not much to say in Bitcoin --> might be a bit too deep for this audience??
