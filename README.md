@@ -9,9 +9,9 @@
 5. [Help needed](#help-needed)
 
 ## Project description
-The basic idea is to create an app that explains the origins of money, what money even is, why bitcoin is important and why it could (will) be the next step in monetary evolution and at the end give some tips on how to get started, i.e where to buy, where to store etc.
-The app is not an attempt to outlay monetary history or the technicalities of Bitcoin as accurate and nuanced as possible. The goal is to give a ~1 hour introduction and get people familiar and interested in the topic. After going through the app they should have some basic understanding of Bitcoin so that they start exploring on their own.
-This app seems great as a base and can be adapt it to our content/needs as necessary.  
+The basic idea is to create an app that explains the origins of money, what money even is, why bitcoin is important and why it could (will) be the next step in monetary evolution and at the end give some tips on how to get started, i.e where to buy, where to store etc.  
+[This](https://play.google.com/store/apps/details?id=com.twodimensions.timeline&hl=en_US) app seems great as a base and can be adapt it to our content/needs as necessary.  
+
 HistoryOfEverything: https://github.com/2d-inc/HistoryOfEverything  
 The app is open-source under a MIT License.
 
