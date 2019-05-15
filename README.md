@@ -113,7 +113,7 @@ _______________________________________________
 - What is their main claim?
 #### Austrian
 - What is their main claim?
-#### Sound vs Unsound money
+#### Sound money(such as Gold or Bitcoin) vs Unsound money
 _______________________________________________
 
 ### 6. History of Bitcoin
@@ -138,7 +138,6 @@ The Cypherpunks mailing list was formed at about the same time, and just a few m
 
 Some notable Cypherpunks and their achievements:
 
-- Jacob Appelbaum: Tor developer
 - Julian Assange: Founder of WikiLeaks
 - Dr Adam Back: Inventor of Hashcash, co-founder of Blockstream
 - Bram Cohen: Creator of BitTorrent
@@ -151,7 +150,7 @@ Some notable Cypherpunks and their achievements:
 - Zooko Wilcox-O’Hearn: DigiCash developer, Founder of Zcash
 - Philip Zimmermann: Creator of PGP 1.0
 
-#### Failed early efforts:
+#### Laying the foundation:
 - DigiCash, e-gold
 - Why did they fail? Centralisation
 - Hal finney, Nick szabo, adam back, w. dai etc.
@@ -175,7 +174,7 @@ Nick Szabo published a [proposal](http://unenumerated.blogspot.com/2005/12/bit-g
 - How did he release his invention?
 - Did he premine?
 
-Finally, in 2008, Satoshi Nakamoto, a pseudonym for a still-unidentified individual or individuals, published the bitcoin whitepaper, citing both hashcash and b-money.
+Finally, in 2008, Satoshi Nakamoto, a pseudonym for a still-unidentified individual or a group, published the bitcoin whitepaper, citing both hashcash and b-money.
 
 On 31 October 2008, a link to a paper authored by Satoshi Nakamoto titled Bitcoin: A Peer-to-Peer Electronic Cash System was posted to a cryptography mailing list.[12] This paper detailed methods of using a peer-to-peer network to generate what was described as "a system for electronic transactions without relying on trust". On 3 January 2009, the bitcoin network came into existence with Satoshi Nakamoto mining the genesis block of bitcoin (block number 0), which had a reward of 50 bitcoins. Embedded in the coinbase of this block was the text: "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks"
 
@@ -187,7 +186,7 @@ Satoshi dedicated a section of the [bitcoin whitepaper](http://bitcoin.org/bitco
 
 “The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the ‘tape’, is made public, but without telling who the parties were.” Read full Bitcoin whitepaper [here](http://bitcoin.org/bitcoin.pdf).
 
-Satoshi Nakamoto triggered an avalanche of progress with a working system that people could use, extend and fork.
+Satoshi Nakamoto triggered an avalanche of progress with a working system that people could use, extend, fork and build upon.
 
 Bitcoin strengthened the entire cypherpunk movement by enabling organizations such as WikiLeaks to continue operating via bitcoin donations, even after the traditional financial system had cut them off.
 
