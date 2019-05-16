@@ -110,7 +110,7 @@ _______________________________________________
 
 ### 5. Fiat Money
 #### Keynsian & Moneterian
-- What is their main claim?
+> Keynesian economists believe the economy is best controlled by manipulating the demand for goods and services. From their viewpoint, all spending is spending and so it matters not if that spending comes from individuals feeding their families or governments murdering foreigners: it all counts in aggregate demand and it all reduces unemployment! Whenever the economy is turning downwards, Keynsians therefore advocate for the gouvernment to increase their spending via debt.
 #### Austrian
 - What is their main claim?
 #### Sound vs Unsound money
@@ -230,20 +230,28 @@ old blocks practically immutable. Consensus attacks also do not affect the secur
 #### How to kill bitcoin
 - What are possible threats for bitcoin?
 - ( We can omit this section. saifedean has some material here )
+#### Problems with Bitcoin
+- Scaling
 _______________________________________________
 
 
 ### 9. Lightning
-- What is Lightning?
 - Why is it needed?
+- What is Lightning?
+> As mentioned in the last chapter, the main problem with Bitcoin that it is impossble to recored an ever increasing number of transaction on the blockchain. Therefore very smart minds started to think about how to solve this problem and came up with an ingenious way to take the bulk of transacions off the chain and only when necessary use the bitcoin blockchain to settle conflicts. That system, called Lightning, enables instant and incredibly cheap Bitcoin payments. For Lightning to work, a few essential components are needed.
+
 - Lightning channel and Lightning network in simple words without going into technical ( comparing lighting channel to some real life analogy. One way to explain is like two people puts some money on a table and can exchange as many time as they want without declaring to whole world. And extend it to more than two people participating in exchange )
-#### Multisig
+#### Multisig addresses
 - What is multisig?
 - Is it only used for lightning?
+> In order to create Payment Channels, which the Lightning network consist of, multisignature transactions are necessary. A multisignature address is an address that needs N out of M (which can be freely chosen when creating the funding transaction) signatures to unlock/spend. For example, you could create a 2 out of 3 multisgnature address. When you want to spend the coins on that address, you need to sign the transaction with at least 2 of the 3 private keys that you specified when creating the initial funding transaction. The lightning network uses 2-of-2 multisignature addresses. How that is used we will see soon.
 #### Timelocks
 - What are timelocks?
+> Time-locks can “lock bitcoins up” in an UTXO, to make them spendable (i.e. to be used as a valid input) only at some point in the future. There are two different types of time-locks: absolute and  relative time-locks. Absolute locks bitcoins up until a (more or less) concrete time in the future: an actual time and date, or a specific block height. Relative locks, instead, uses relative time. Once a CVS-output is recorded on the blockchain, it takes a specific amount of blocks from that point on before the bitcoins can be spent again.
 - What types of timelocks exist?
 - Is it only used for lightning?
+#### Bidirectional Channels
+
 #### HTLC
 #### Payment Channels
 - How to fund a channel?
