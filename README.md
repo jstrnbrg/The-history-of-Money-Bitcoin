@@ -76,7 +76,7 @@ _______________________________________________
 
 ### 2. Proto money
 > The most familiar form of money to most are coins. Yet money existed long before the invention of coinage and different cultures have flourished using different kinds of money, all of them being goods which were highly saleable compared to other goods.
-#### Wampum beads
+#### Wampum beads ~500 AD
 > Wampum is a traditional shell bead of the Eastern Woodlands tribes of American Indians. Before contact with Europeans, strings of wampum were used for storytelling, ceremonial gifts, and recording important treaties and historical events, such as the Two Row Wampum Treaty or The Hiawatha Belt. Wampum was also used by the northeastern Indian tribes as a means of exchange, strung together in lengths for convenience. The process to make wampum was labor-intensive with stone tools. Only coastal tribes had sufficient access to the basic shells to make wampum. When European Colonists came to the Americas, they adopted wampum as money to trade with the native peoples of New England and New York. Eventually, the Colonists applied their technologies to more efficiently produce wampum, which caused inflation and ultimately destroyed wampum as a currency.
 #### Rai stones
 > The Micronesian island of Yap is known for its stone money, known as Rai. Large doughnut-shaped, carved disks, up to 4 m in diameter. The smallest can be as little as 3.5 centimetres in diameter. The perceived value of a specific stone is based on not only its size and craftsmanship, but also its history. If many people—or no one at all—died when the specific stone was transported, or a famous sailor brought it in, the value of the rai stone increases by reason of its anecdotal heft. The monetary system of Yap relies on an oral history of ownership. Because these stones are too large to move, buying an item with one simply involves agreeing that the ownership has changed. As long as the transaction is recorded in the oral history, it will now be owned by the person to whom it is passed and no physical movement of the stone is required. In one instance, a large rai was transported by canoe and was accidentally dropped and sank to the sea floor. Although it was never seen again, everyone agreed that the rai must still be there, so it continued to be transacted as genuine currency. What is important is that ownership of the rai is clear to everyone, not that the rai is physically transferred or even physically accessible to either party in the transfer. As we will later see, this system is very similar to how bitcoin works.
@@ -110,10 +110,10 @@ _______________________________________________
 
 ### 5. Fiat Money
 #### Keynsian & Moneterian
-- What is their main claim?
+> Keynesian economists believe the economy is best controlled by manipulating the demand for goods and services. From their viewpoint, all spending is spending and so it matters not if that spending comes from individuals feeding their families or governments building streets or engaging in war: it all counts in aggregate demand and it all reduces unemployment. In order to disincentivise savings and incentivise spendings Keynsians advocate for a continuos, low rate of inflation.  Whenever the economy is turning downwards, Keynsians therefore advocate for the gouvernment to increase their by taking on more debt.
 #### Austrian
-- What is their main claim?
-#### Sound money(such as Gold or Bitcoin) vs Unsound money
+> Austrians believe that nature should be allowed to run its course and the lesser the Government interferes in free markets, the better it is. They believe that by understanding and predicting how people will react to different conditions one can understand and predicts what's likely to happen next.
+#### Sound money (such as Gold or Bitcoin) vs Unsound money
 _______________________________________________
 
 ### 6. History of Bitcoin
@@ -188,18 +188,43 @@ Satoshi dedicated a section of the [bitcoin whitepaper](http://bitcoin.org/bitco
 
 Satoshi Nakamoto triggered an avalanche of progress with a working system that people could use, extend, fork and build upon.
 
-Bitcoin strengthened the entire cypherpunk movement by enabling organizations such as WikiLeaks to continue operating via bitcoin donations, even after the traditional financial system had cut them off.
+Bitcoin strengthened the entire cypherpunk movement by enabling organisations such as WikiLeaks to continue operating via bitcoin donations, even after the traditional financial system had cut them off.
 
 
 #### Early usage of bitcoin
-- Is it only used for illegal things?
-- Do only crooks use bitcoin?
-- Is Bitcoin anonymous?
+> __2011__
+In 2011 the Electronic Frontier Foundation, a non-profit group, and WikiLeaks began to accept bitcoins for donations.
+> __2012__
+In September 2012, the Bitcoin Foundation was launched to "accelerate the global growth of bitcoin through standardization, protection, and promotion of the open source protocol". The founders were Gavin Andresen, Jon Matonis, Patrick Murck, Charlie Shrem, and Peter Vessenes.
+In October 2012, BitPay reported having over 1,000 merchants accepting bitcoin under its payment processing service. In November 2012, WordPress had started accepting bitcoins.
+
+> __2013__
+In February 2013, the bitcoin-based payment processor Coinbase reported selling US$1 million worth of bitcoins in a single month at over $22 per bitcoin.  The Internet Archive announced that it was ready to accept donations as bitcoins and that it intends to give employees the option to receive portions of their salaries in bitcoin currency.
+On 23 June 2013, it was reported that the US Drug Enforcement Administration listed 11.02 bitcoins as a seized asset in a United States Department of Justice seizure notice pursuant to 21 U.S.C. § 881. This marked the first time a government agency claimed to have seized bitcoin.
+In July 2013, a project began in Kenya linking bitcoin with M-Pesa, a popular mobile payments system, in an experiment designed to spur innovative payments in Africa.  During the same month the Foreign Exchange Administration and Policy Department in Thailand stated that bitcoin lacks any legal framework and would therefore be illegal, which effectively banned trading on bitcoin exchanges in the country.
+In October 2013, the FBI seized roughly 26,000 BTC from website Silk Road during the arrest of alleged owner Ross William Ulbricht. Two companies, Robocoin and Bitcoiniacs launched the world's first bitcoin ATM on 29 October 2013 in Vancouver, BC, Canada, allowing clients to sell or purchase bitcoin currency at a downtown coffee shop.
+In November 2013, the University of Nicosia announced that it would be accepting bitcoin as payment for tuition fees, with the university's chief financial officer calling it the "gold of tomorrow".
+On 5 December 2013, the People's Bank of China prohibited Chinese financial institutions from using bitcoins.
+
+> __2014__
+In early February 2014, one of the largest bitcoin exchanges, Mt. Gox, suspended withdrawals citing technical issues. By the end of the month, Mt. Gox had filed for bankruptcy protection in Japan amid reports that 744,000 bitcoins had been stolen. Months before the filing, the popularity of Mt. Gox had waned as users experienced difficulties withdrawing funds.
+In December 2014 Microsoft began to accept bitcoin to buy Xbox games and Windows software.
+A documentary film, The Rise and Rise of Bitcoin, was released in 2014, featuring interviews with bitcoin users, such as a computer programmer and a drug dealer.
+
+> __2015__
+In January 2015 Coinbase raised 75 million USD as part of a Series C funding round, smashing the previous record for a bitcoin company. Less than one year after the collapse of Mt. Gox, United Kingdom-based exchange Bitstamp announced that their exchange would be taken offline while they investigate a hack which resulted in about 19,000 bitcoins (equivalent to roughly US$5 million at that time) being stolen from their hot wallet.[107] The exchange remained offline for several days amid speculation that customers had lost their funds. Bitstamp resumed trading on 9 January after increasing security measures and assuring customers that their account balances would not be impacted.
+In February 2015, the number of merchants accepting bitcoin exceeded 100,000.
+
+> __2016__
+In March 2016, the Cabinet of Japan recognized virtual currencies like bitcoin as having a function similar to real money.
+In July 2016, researchers published a paper showing that by November 2013 bitcoin commerce was no longer driven by "sin" activities but instead by legitimate enterprises.
+Uber switched to bitcoin in Argentina after the government blocked credit card companies from dealing with Uber.
+In August 2016, a major bitcoin exchange, Bitfinex, was hacked and nearly 120,000 BTC (around $60m) was stolen.
+In September 2016, the number of bitcoin ATMs had doubled over the last 18 months and reached 771 ATMs worldwide.[118]
+In November 2016, the Swiss Railway operator SBB (CFF) upgraded all their automated ticket machines so that bitcoin could be bought from them using the scanner on the ticket machine to scan the bitcoin address on a phone app.
+Bitcoin generates more academic interest year after year; the number of Google Scholar articles published mentioning bitcoin grew from 83 in 2009, to 424 in 2012, and 3580 in 2016.
 
 
-#### famous exchange hacks
-- Third parties are a secuity hole.
-- How does bitcoin enable you to not trust any third party?
 #### Waves of adoption and price bubbles
 
 #### Scaling bitcoin debate, UASF
@@ -293,20 +318,28 @@ old blocks practically immutable. Consensus attacks also do not affect the secur
 #### How to kill bitcoin
 - What are possible threats for bitcoin?
 - ( We can omit this section. saifedean has some material here )
+#### Problems with Bitcoin
+- Scaling
 _______________________________________________
 
 
 ### 9. Lightning
-- What is Lightning?
 - Why is it needed?
+- What is Lightning?
+> As mentioned in the last chapter, the main problem with Bitcoin that it is impossble to recored an ever increasing number of transaction on the blockchain. Therefore very smart minds started to think about how to solve this problem and came up with an ingenious way to take the bulk of transacions off the chain and only when necessary use the bitcoin blockchain to settle conflicts. That system, called Lightning, enables instant and incredibly cheap Bitcoin payments. For Lightning to work, a few essential components are needed.
+
 - Lightning channel and Lightning network in simple words without going into technical ( comparing lighting channel to some real life analogy. One way to explain is like two people puts some money on a table and can exchange as many time as they want without declaring to whole world. And extend it to more than two people participating in exchange )
-#### Multisig
+#### Multisig addresses
 - What is multisig?
 - Is it only used for lightning?
+> In order to create Payment Channels, which the Lightning network consist of, multisignature transactions are necessary. A multisignature address is an address that needs N out of M (which can be freely chosen when creating the funding transaction) signatures to unlock/spend. For example, you could create a 2 out of 3 multisgnature address. When you want to spend the coins on that address, you need to sign the transaction with at least 2 of the 3 private keys that you specified when creating the initial funding transaction. The lightning network uses 2-of-2 multisignature addresses. How that is used we will see soon.
 #### Timelocks
 - What are timelocks?
+> Time-locks can “lock bitcoins up” in an UTXO, to make them spendable (i.e. to be used as a valid input) only at some point in the future. There are two different types of time-locks: absolute and  relative time-locks. Absolute locks bitcoins up until a (more or less) concrete time in the future: an actual time and date, or a specific block height. Relative locks, instead, uses relative time. Once a CVS-output is recorded on the blockchain, it takes a specific amount of blocks from that point on before the bitcoins can be spent again.
 - What types of timelocks exist?
 - Is it only used for lightning?
+#### Bidirectional Channels
+
 #### HTLC
 #### Payment Channels
 - How to fund a channel?
